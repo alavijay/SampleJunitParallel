@@ -23,8 +23,8 @@ public class DriverFactory
       @Override
       protected WebDriver initialValue()
       {
-         String chromeDriverPath = "/Users/alapati/hbss/hbs/src/test/resources/drivers/mac/chromedriver";
-System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+         String chromeDriverPath = "/Users/vijayalapati/PycharmProjects/SampleProjectParallelExecutionInCucumber/src/test/resources/features/chromedriver";
+   System.setProperty("webdriver.chrome.driver", chromeDriverPath);
          return new ChromeDriver(); // can be replaced with other browser drivers
       }
    };

@@ -12,8 +12,7 @@ import cucumber.api.junit.Cucumber;
 		tags="",
 		plugin = {"pretty",
 				"html:target/html/",
-				"json:target/json/file.json",
-		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+				"json:target/json/file.json"},
 				
 		dryRun=false
 
