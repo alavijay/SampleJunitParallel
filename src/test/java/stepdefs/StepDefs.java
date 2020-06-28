@@ -1,13 +1,6 @@
 package stepdefs;
 
-import org.openqa.selenium.WebDriver;
-
-
-import cucumber.api.Scenario;
-
 import cucumber.api.java.en.Given;
-import hooks.DriverFactory;
-import hooks.hooks;
 import pages.bingPage;
 
 public class StepDefs {
@@ -19,7 +12,7 @@ public class StepDefs {
 		bPage = new bingPage();
 		bPage.navToPage(string);
 		bPage.SearchFieldDisplayed();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
 	
 }
